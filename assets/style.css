@@ -1,0 +1,16 @@
+body{font-family:Arial;background:#f4f4f4}
+.container{max-width:800px;margin:auto;background:#fff;padding:20px}
+form{display:flex;gap:10px;flex-wrap:wrap}
+input,button{padding:10px;flex:1}
+table{width:100%;border-collapse:collapse;margin-top:20px}
+th,td{border:1px solid #ccc;padding:10px; text-align: center;}
+a{cursor:pointer;color:blue; text-decoration: none;}
+
+button[type="submit"]{
+    background: green;
+}
+
+button[type="button"]{
+    background: silver;
+}
+@media(max-width:600px){form{flex-direction:column}}
